@@ -71,21 +71,3 @@ sudo apt install ros-noetic-desktop-full
 
 echo "source /opt/ros/noetic/setup.bash" >> ~/.bashrc
 source ~/.bashrc
-
-sudo apt install python3-rosdep python3-rosinstall python3-rosinstall-generator python3-wstool build-essential
-
-sudo apt-get install python3-pip 
-
-sudo pip3 install rosdepc
-
-sudo rosdepc init
-rosdepc update
-
-sudo apt install python3-roslaunch
-
-wget -qO- https://dl.winehq.org/wine-builds/winehq.key | sudo apt-key add -
-sudo apt install software-properties-common
-sudo apt-add-repository "deb http://dl.winehq.org/wine-builds/ubuntu/ $(lsb_release -cs) main"
-sudo apt install --install-recommends winehq-stable
-wget https://raw.githwin    ubusercontent.com/Winetricks/winetricks/master/src/winetricks
-
