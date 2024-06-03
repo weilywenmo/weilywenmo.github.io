@@ -1,2 +1,2 @@
-- [:octocat: 首页](/README)
+- [ 首页](/README)
 test
